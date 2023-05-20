@@ -1,0 +1,263 @@
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Montserrat-Regular.woff) format('woff'),
+    url(./fonts/Montserrat-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./fonts/Montserrat-Medium.woff) format('woff'),
+    url(./fonts/Montserrat-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/Montserrat-Bold.woff) format('woff'),
+    url(./fonts/Montserrat-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: bold;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./fonts/Montserrat-ExtraBold.woff) format('woff'),
+    url(./fonts/Montserrat-ExtraBold.woff2) format('woff2');
+}
+
+.page {
+  margin: 0;
+  font-family: 'Montserrat', 'Arial';
+}
+
+.header {
+  background: linear-gradient(#eda418, #fff);
+  height: 900px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+
+.header__logo {
+  width: 320px;
+  height: 66px;
+  margin-top: 105px;
+  margin-right: 147px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+}
+.header__navigation {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-top: 95px;
+  padding-right: 66px;
+}
+
+.header__navigation:last-child {
+  padding-top: 0;
+}
+
+.header__text {
+  font-size: 25px;
+  line-height: 1.21em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header__text:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  transition: all 0.2s linear;
+}
+
+.header__text_bold {
+  font-weight: 700;
+}
+
+.header__basket {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.header__basket:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+.header__title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.21em;
+  z-index: 1;
+}
+
+.header__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.21em;
+  z-index: 1;
+}
+
+.header__button {
+  background-color: #e52626;
+  border-radius: 50px;
+  border: none;
+  width: 142px;
+  height: 60px;
+  cursor: pointer;
+  margin-top: 29px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.21em;
+  font-weight: 400;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.header__image {
+  position: absolute;
+  top: 194px;
+  bottom: 106px;
+  right: 217px;
+  z-index: 0;
+}
+
+.content {
+  margin-bottom: 47px;
+}
+
+.content__menu {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 450px);
+  gap: 38px;
+}
+
+.content__title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 1.21em;
+}
+
+.content__text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.21em;
+  margin: 0;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.content__title {
+  text-align: center;
+}
+
+.content__image {
+  border-radius: 50px;
+}
+.content__image:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.footer {
+  background: linear-gradient(#fff, #eda418);
+  padding-bottom: 75px;
+}
+.footer__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.21em;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.footer__text:first-child {
+  padding-top: 0;
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.21em;
+  padding-right: 101px;
+  cursor: pointer;
+}
+
+.footer__title:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  transition: all 0.2s linear;
+}
+
+.footer__title-medium {
+  font-weight: 500;
+}
+
+.footer__nav {
+  margin-top: 157px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer__name {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.footer__logo {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.footer__logo:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.footer__logo:last-child {
+  padding-right: 0;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
