@@ -3,16 +3,22 @@
   width: 500px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 95px;
   margin: 0;
+  margin-right: 298px;
 }
 
+@media (max-width: 1200px) {
+  .header__navigation {
+    margin-right: 30px;
+  }
+}
 @media (max-width: 805px) {
   .header__navigation {
     width: 100px;
     flex-direction: column;
     height: 50px;
     margin-top: 20px;
+    margin-right: 0;
   }
 }
 
