@@ -1,0 +1,17 @@
+.footer__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.21em;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.footer__text:first-child {
+  padding-top: 0;
+}
+
+@media (max-width: 470px) {
+  .footer__text {
+    font-size: 15px;
+  }
+}

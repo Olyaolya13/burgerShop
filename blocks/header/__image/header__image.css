@@ -1,0 +1,27 @@
+.header__image {
+  background: url(../../../image/HeaderBurger.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 194px;
+  bottom: 106px;
+  right: 217px;
+  z-index: 0;
+  width: 620px;
+  height: 600px;
+}
+
+@media (max-width: 1300px) {
+  .header__image {
+    right: 10px;
+  }
+}
+
+@media (max-width: 770px) {
+  .header__image {
+    right: 10px;
+    bottom: 50px;
+    top: 300px;
+    width: 520px;
+    height: 500px;
+  }
+}

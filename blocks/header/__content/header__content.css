@@ -1,0 +1,13 @@
+.header__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+@media (max-width: 805px) {
+  .header__content {
+    align-items: center;
+    margin-left: 20px;
+  }
+}

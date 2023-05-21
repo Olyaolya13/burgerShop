@@ -1,0 +1,18 @@
+.content__menu {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 450px);
+  gap: 38px;
+}
+
+@media (max-width: 1300px) {
+  .content__menu {
+    grid-template-columns: repeat(auto-fit, 450px);
+  }
+}
+
+@media (max-width: 500px) {
+  .content__menu {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+}

@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(#eda418, #fff);
+  height: 900px;
+}
+
+@media (max-width: 900x) {
+  .header {
+    height: 700px;
+  }
+}

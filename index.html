@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burger Shop</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./pages/style.css" />
   </head>
   <body class="page">
     <header class="header" id="header">
       <nav class="header__menu">
         <img src="./image/Logo.png" alt="Логотип Vintage Food" class="header__logo" />
         <div class="header__navigation">
-          <a href="#header" class="header__link"
-            ><p class="header__text header__text_bold">Главная</p></a
-          >
+          <p class="header__text header__text_bold">
+            <a href="#header" class="header__link">Главная</a>
+          </p>
           <p class="header__text">Акции</p>
-          <a href="#aboutUs" class="header__link"><p class="header__text">О нас</p></a>
+          <p class="header__text"><a href="#aboutUs" class="header__link">О нас</a></p>
 
           <img src="./image/buttonBasket.png" alt="Корзина" class="header__basket" />
         </div>
@@ -26,7 +26,7 @@
         <p class="header__subtitle">Сделай первый заказ и получи скидку 50%</p>
         <button class="header__button">Заказать</button>
       </div>
-      <img src="./image/HeaderBurger.png" alt="Картинка Бургер" class="header__image" />
+      <div class="header__image"></div>
     </header>
     <section class="content">
       <h2 class="content__title">Меню</h2>
@@ -60,7 +60,7 @@
     <footer class="footer" id="aboutUs">
       <nav>
         <ul class="footer__nav">
-          <li class="footer__title footer__title-medium">Программа лояльности</li>
+          <li class="footer__title footer__title_medium">Программа лояльности</li>
           <li class="footer__title">Политика конфиденциальности</li>
           <li class="footer__title">Договор оферты</li>
         </ul>

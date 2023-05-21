@@ -1,0 +1,14 @@
+.content__text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.21em;
+  margin: 0;
+  margin-top: 16px;
+  text-align: center;
+}
+
+@media (max-width: 525px) {
+  .content__text {
+    font-size: 29px;
+  }
+}

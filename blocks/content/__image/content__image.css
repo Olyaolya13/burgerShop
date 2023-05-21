@@ -1,0 +1,39 @@
+.content__image {
+  border-radius: 50px;
+}
+.content__image:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.01);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  width: 450px;
+  height: 300px;
+}
+
+@media (max-width: 525px) {
+  .content__image {
+    width: 350px;
+    height: 250px;
+  }
+  .content__image:hover {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 435px) {
+  .content__image {
+    width: 250px;
+    height: 150px;
+  }
+  .content__image:hover {
+    transform: scale(0.6);
+  }
+}
+
+.content__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

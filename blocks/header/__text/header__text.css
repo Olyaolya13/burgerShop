@@ -1,0 +1,28 @@
+.header__text {
+  font-size: 25px;
+  line-height: 1.21em;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.header__text:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1085px) {
+  .header__text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header__text {
+    font-size: 0;
+    visibility: hidden;
+  }
+}

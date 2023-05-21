@@ -1,0 +1,24 @@
+.header__basket {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.header__basket:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+@media (max-width: 1085px) {
+  .header__basket {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header__basket {
+    width: 30px;
+    height: 30px;
+  }
+}

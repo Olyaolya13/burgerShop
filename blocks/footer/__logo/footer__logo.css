@@ -1,0 +1,16 @@
+.footer__logo {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.footer__logo:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.footer__logo:last-child {
+  padding-right: 0;
+}

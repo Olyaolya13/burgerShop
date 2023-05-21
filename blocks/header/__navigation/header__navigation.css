@@ -1,0 +1,23 @@
+.header__navigation {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 95px;
+  margin: 0;
+}
+
+@media (max-width: 805px) {
+  .header__navigation {
+    width: 100px;
+    flex-direction: column;
+    height: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header__navigation {
+    margin-top: 0;
+  }
+}
